@@ -1,0 +1,37 @@
+
+/* THIS ALLOWS FULL HEIGHT PAGES */
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+/* PARENT SECTIONS */
+#landing-parent {
+    height: 100vh;
+    background-color: #46494C;
+}
+
+#education-parent {
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+#experience-parent {
+    height: 100vh;
+    background-color: #DCDCDD;
+}
+
+#projects-parent {
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+#contact-parent {
+    height: 100vh;
+    background-color: #46494C;
+}
+
+/* FOOTER */
+nav {
+    background-color: #000000;
+}
