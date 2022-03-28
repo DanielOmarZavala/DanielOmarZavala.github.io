@@ -21,8 +21,10 @@
     <!-- Page Title -->
     <title>Daniel's Portfolio</title>
 
-    <!-- Page Font -->
-
+    <!-- Page Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
@@ -32,22 +34,23 @@
 <body>
 
 <!-- MAIN CONTAINER SURROUNDS EVERYTHING -->
-<main>
+<main class="container-fluid">
 
     <!-- LANDING PAGE -->
-    <section id="landing-parent" class="row">
+    <section id="landing-parent" class="row justify-content-center align-items-start align-content-center">
 
         <h1 id="landing-h1" class="col-12 d-flex justify-content-center align-items-end"><strong>WELCOME</strong></h1>
 
         <div id="landing-div-p" class="col-12 row d-flex justify-content-center align-items-start">
-            <p id="landing-p1" class="col-12 d-flex justify-content-center align-items-start">I'm Daniel, a Fullstack
+            <p id="landing-p1" class="col-12 d-flex justify-content-center align-items-start">I'm Daniel Zavala, a
+                Fullstack
                 Web Developer</p>
             <p id="landing-p2" class="col-12 d-flex justify-content-center align-items-start">Press the Button to
                 Continue</p>
         </div>
 
-        <div id="landing-div-button" class="col-12 d-flex justify-content-center align-items-start">
-            <button>Onward</button>
+        <div id="landing-div-button-parent" class="col-12 d-flex justify-content-center align-items-start">
+            <button id="landing-div-button">Onward</button>
         </div>
 
     </section>
