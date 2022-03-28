@@ -13,6 +13,9 @@ html, body {
     height: 100vh;
     /*background-color: #4C5C68;*/
     background-color: #252934;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 
 #human-parent {
@@ -39,17 +42,13 @@ html, body {
 }
 
 /* LANDING PAGE */
-#landing-parent {
-    color: #FFFFFF;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-}
 
-#landing-name-span {
+/*#landing-name-span {
     color: darkred;
-}
+}*/
 
 #landing-h1 {
+    width: 80%;
     padding: 0;
     margin: 8px;
     font-size: 60px;
@@ -57,21 +56,21 @@ html, body {
 
 #landing-div-p {
     padding: 0;
-    width: 100%;
+    width: 80%;
 }
 
 #landing-p1 {
     padding: 0;
     margin: 0;
     width: 100%;
-    font-size: 23px;
+    font-size: 19px;
 }
 
 #landing-p2 {
     padding: 0;
     margin: 0;
     width: 100%;
-    font-size: 23px;
+    font-size: 19px;
 }
 
 #landing-div-button-parent {
@@ -91,27 +90,58 @@ html, body {
 
 /* I'M A HUMAN PAGE */
 #human-h1-parent {
+    height: 50px;
     padding: 0;
-    margin: 0;
-    height: 40px;
+    margin: 20px 0 0 0;
 }
 
 #human-h1 {
-    width: 30%;
+    width: 100%;
     padding: 0;
+    margin: 0 0 8px 0;
     text-align: center;
-    margin: 0;
+
 }
 
 #human-h1-bottom-border-parent {
-    padding: 0;
-    margin: 0;
     height: 5px;
+    padding: 0;
+    margin: 0 0 60px 0;
 }
 
 #human-h1-bottom-border {
-    width: 20%;
-    border-bottom: 2px solid #252934;
+    width: 15%;
+    border-bottom: 3px solid #252934;
+}
+
+#human-picture-parent {
+    height: 200px;
+    width: 111px;
+    background: red;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.human-icon-parent {
+    height: 50px;
+    width: 50px;
+    background: red;
+}
+
+#human-community-service-parent {
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+#human-icon-community {
+
+}
+
+#human-education-growth-parent {
+    margin: 60px 0 0 0;
+    padding: 0;
+
 }
 
 /* FOOTER */
