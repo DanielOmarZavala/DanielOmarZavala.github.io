@@ -22,7 +22,9 @@ html, body {
 
 #experience-parent {
     height: 100vh;
-    background-color: #DCDCDD;
+    /*background-color: #DCDCDD;*/
+    background-color: #f5f5f5;
+
 }
 
 #projects-parent {
@@ -85,6 +87,31 @@ html, body {
     color: #1985A1;
     background-color: #252934;
     border: 5px solid #1985A1;
+}
+
+/* I'M A HUMAN PAGE */
+#human-h1-parent {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+#human-h1 {
+    width: 30%;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+#human-h1-bottom-border-parent {
+    padding: 0;
+    margin: 0;
+    height: 5px;
+}
+
+#human-h1-bottom-border {
+    width: 20%;
+    border-bottom: 2px solid #252934;
 }
 
 /* FOOTER */
