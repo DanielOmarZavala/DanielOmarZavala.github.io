@@ -52,7 +52,8 @@ html, body {
     width: 80%;
     padding: 0;
     margin: 8px;
-    font-size: 60px;
+    font-size: 70px;
+    text-align: center;
 }
 
 #landing-div-p {
@@ -64,14 +65,16 @@ html, body {
     padding: 0;
     margin: 0;
     width: 100%;
-    font-size: 19px;
+    font-size: 25px;
+    text-align: center;
 }
 
 #landing-p2 {
     padding: 0;
     margin: 0;
     width: 100%;
-    font-size: 19px;
+    font-size: 25px;
+    text-align: center;
 }
 
 #landing-div-button-parent {
@@ -84,6 +87,7 @@ html, body {
     margin: 10px;
     width: 30%;
     height: 70%;
+    font-size: 25px;
     color: #1985A1;
     background-color: #252934;
     border: 5px solid #1985A1;
