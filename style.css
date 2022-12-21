@@ -1,10 +1,19 @@
-/* THIS ALLOWS FULL HEIGHT PAGES */
+
+
+
+/*** FULL PAGE SELECTORS ***/
+/* Full height pages */
 html, body {
     margin: 0;
     height: 100%;
 }
 
-/* PARENT SECTIONS */
+/* List style */
+ul {
+    list-style: none;
+}
+
+/*** PARENT SECTIONS ***/
 .container-fluid {
     padding: 0;
 }
@@ -42,7 +51,7 @@ html, body {
     color: #FFFFFF;
 }
 
-/* LANDING PAGE */
+/*** LANDING PAGE ***/
 
 /*#landing-name-span {
     color: darkred;
@@ -93,7 +102,7 @@ html, body {
     border: 5px solid #1985A1;
 }
 
-/* I'M A HUMAN PAGE */
+/*** I'M A HUMAN PAGE ***/
 #human-h1-parent {
     height: 50px;
     padding: 0;
@@ -149,7 +158,8 @@ html, body {
 
 }
 
-/* FOOTER */
+/*** FOOTER ***/
 nav {
+    height: 30em;
     background-color: #000000;
 }
