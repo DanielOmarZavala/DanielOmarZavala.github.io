@@ -42,6 +42,7 @@ ul {
 #projects-parent {
     height: 100vh;
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 #contact-parent {
@@ -61,7 +62,8 @@ ul {
     width: 80%;
     padding: 0;
     margin: 8px;
-    font-size: 70px;
+    /*font-size: 70px;*/
+    font-size: 4.375rem;
     text-align: center;
 }
 
@@ -74,7 +76,8 @@ ul {
     padding: 0;
     margin: 0;
     width: 100%;
-    font-size: 25px;
+    /*font-size: 25px;*/
+    font-size: 1.563rem;
     text-align: center;
 }
 
@@ -82,7 +85,8 @@ ul {
     padding: 0;
     margin: 0;
     width: 100%;
-    font-size: 25px;
+    /*font-size: 25px;*/
+    font-size: 1.563rem;
     text-align: center;
 }
 
@@ -93,10 +97,12 @@ ul {
 }
 
 #landing-div-button {
-    margin: 10px;
+    /*margin: 10px;*/
+    margin: 0.625em;
     width: 30%;
     height: 70%;
-    font-size: 25px;
+    /*font-size: 25px;*/
+    font-size: 1.563rem;
     color: #1985A1;
     background-color: #252934;
     border: 5px solid #1985A1;
@@ -104,23 +110,28 @@ ul {
 
 /*** I'M A HUMAN PAGE ***/
 #human-h1-parent {
-    height: 50px;
+    /*height: 50px;*/
+    height: 3.125em;
     padding: 0;
-    margin: 20px 0 0 0;
+    /*margin: 20px 0 0 0;*/
+    margin: 1.25em 0 0 0;
 }
 
 #human-h1 {
     width: 100%;
     padding: 0;
-    margin: 0 0 8px 0;
+    /*margin: 0 0 8px 0;*/
+    margin: 0 0 0.5em 0;
     text-align: center;
 
 }
 
 #human-h1-bottom-border-parent {
-    height: 5px;
+    /*height: 5px;*/
+    height: 0.313em;
     padding: 0;
-    margin: 0 0 60px 0;
+    /*margin: 0 0 60px 0;*/
+    margin: 0 0 3.75em 0;
 }
 
 #human-h1-bottom-border {
@@ -129,22 +140,27 @@ ul {
 }
 
 #human-picture-parent {
-    height: 200px;
-    width: 111px;
+    /*height: 200px;*/
+    /*width: 111px;*/
+    height: 12.5em;
+    width: 6.938em;
     background: red;
-    border-radius: 30px;
+    /*border-radius: 30px;*/
+    border-radius: 1.875em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .human-icon-parent {
-    height: 50px;
-    width: 50px;
+    /*height: 50px;*/
+    /*width: 50px;*/
+    height: 3.125em;
+    width: 3.125em;
     background: red;
 }
 
 #human-community-service-parent {
-    margin: 30px 0 0 0;
+    /*margin: 30px 0 0 0;*/
+    margin: 1.875em;
     padding: 0;
 }
 
@@ -153,7 +169,8 @@ ul {
 }
 
 #human-education-growth-parent {
-    margin: 60px 0 0 0;
+    /*margin: 60px 0 0 0;*/
+    margin: 3.75em;
     padding: 0;
 
 }
@@ -161,5 +178,6 @@ ul {
 /*** FOOTER ***/
 nav {
     height: 15em;
-    background-color: #000000;
+    background: linear-gradient(to top, #000000, 85%, #262626);
+    /*background-color: #000000;*/
 }
