@@ -175,6 +175,19 @@ ul {
 
 }
 
+/*** LANDING PAGE ***/
+.proj-card-top-border {
+    margin-top: 4em;
+}
+
+.proj-card-right-border {
+    margin-right: 9.5em;
+}
+
+.proj-card-left-border {
+    margin-left: 9.5em;
+}
+
 /*** FOOTER ***/
 nav {
     height: 15em;
