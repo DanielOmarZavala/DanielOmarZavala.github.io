@@ -36,6 +36,7 @@ ul {
     height: 100vh;
     /*background-color: #DCDCDD;*/
     background-color: #f5f5f5;
+    text-align: center;
 
 }
 
@@ -175,7 +176,34 @@ ul {
 
 }
 
-/*** LANDING PAGE ***/
+/*** EXPERIENCE PAGE ***/
+#experience-h1-bottom-border-parent {
+    /*height: 5px;*/
+    height: 0.313em;
+    padding: 0;
+    /*margin: 0 0 60px 0;*/
+    margin: 0 0 3.75em 0;
+}
+
+#experience-h1-bottom-border {
+    width: 15%;
+    border-bottom: 3px solid #252934;
+}
+
+/*** PROJECTS PAGE ***/
+#projects-h1-bottom-border-parent {
+    /*height: 5px;*/
+    height: 0.313em;
+    padding: 0;
+    /*margin: 0 0 60px 0;*/
+    margin: 0 0 3.75em 0;
+}
+
+#projects-h1-bottom-border {
+    width: 15%;
+    border-bottom: 3px solid #252934;
+}
+
 .proj-card-top-border {
     margin-top: 4em;
 }
